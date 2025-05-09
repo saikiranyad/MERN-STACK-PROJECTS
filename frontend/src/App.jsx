@@ -142,7 +142,7 @@ import Update from './pages/Users/Update';
 
 import Home from './pages/Home/Home';
 import Products from './pages/Products/Products';
-import Cloths from './pages/Cloths/Cloths.jsx';
+import Cloths from './pages/cloths/Cloths';
 import Groceries from './pages/Groceries/Groceries';
 import Electronics from './pages/Electronics/Electronics';
 
