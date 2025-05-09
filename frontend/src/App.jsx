@@ -15,7 +15,7 @@ import Electronics from './pages/Electronics/Electronics';
 
 import Cart from './pages/Cart/Cart';
 import Paymentpage from './pages/Paymentpage/Paymentpage';
-import Contact from './pages/Contactpage/Contact';
+
 import Productadding from './pages/Productadding/Productadding';
 
 import Customerdashboard from './pages/Customerdashboard/Customerdashboard';
@@ -25,7 +25,7 @@ import Employeedashboard from './pages/EmployeerDasboard/Employeedashboard';
 import Footer from './compoenents/shared/Footer';
 import Editproduct from './compoenents/EmployeeDashboard/Editproduct';
 import Cloths from './pages/Cloths/Cloths';
-
+import Contact from './pages/contactpage/Contact'
 function App() {
   const user = JSON.parse(localStorage.getItem("user")); // Get user from localStorage
 
