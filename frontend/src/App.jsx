@@ -134,7 +134,7 @@
 // export default App;
 
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
-import { useSelector } from 'react-redux';
+
 
 import Signup from './pages/Users/Signup';
 import Login from './pages/Users/Login';
@@ -142,7 +142,7 @@ import Update from './pages/Users/Update';
 
 import Home from './pages/Home/Home';
 import Products from './pages/Products/Products';
-import Cloths from './pages/Cloths/Cloths';
+import Cloths from './pages/Cloths/Cloths.jsx';
 import Groceries from './pages/Groceries/Groceries';
 import Electronics from './pages/Electronics/Electronics';
 

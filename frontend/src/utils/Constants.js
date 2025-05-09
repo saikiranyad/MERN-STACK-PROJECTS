@@ -1,1 +1,1 @@
-export const backend = 'http://localhost:5000'
+export const backend = 'https://mern-stack-projects-frontend.onrender.com'
