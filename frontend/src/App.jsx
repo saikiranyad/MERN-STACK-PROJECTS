@@ -24,8 +24,9 @@ import ProductDescription from './compoenents/Description/Productdescription';
 import Employeedashboard from './pages/EmployeerDasboard/Employeedashboard';
 import Footer from './compoenents/shared/Footer';
 import Editproduct from './compoenents/EmployeeDashboard/Editproduct';
-import Cloths from './pages/Cloths/Cloths';
+
 import Contact from './pages/contactpage/Contact'
+import Cloths from './pages/Cloths/Cloths';
 function App() {
   const user = JSON.parse(localStorage.getItem("user")); // Get user from localStorage
 
