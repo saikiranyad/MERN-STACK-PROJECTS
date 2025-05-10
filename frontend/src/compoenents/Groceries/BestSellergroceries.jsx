@@ -78,7 +78,7 @@
 
 import { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { getAllProducts } from "../../redux/slices/productSlice";
+import { getAllProducts } from "../../redux/Slices/productSlice";
 
 const BestSellergroceries = () => {
   const dispatch = useDispatch();
