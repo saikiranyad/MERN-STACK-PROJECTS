@@ -2,7 +2,7 @@ import React from 'react'
 import Clothscards from '../../compoenents/Cloths/Clothscards'
 import Bestsellercloths from '../../compoenents/Cloths/Bestsellercloths'
 
-const Cloths = () => {
+const Clothes = () => {
   return (
     <div className="container mx-auto px-6 py-6 space-y-6">
       <Clothscards/>
@@ -11,4 +11,4 @@ const Cloths = () => {
   )
 }
 
-export default Cloths
+export default Clothes

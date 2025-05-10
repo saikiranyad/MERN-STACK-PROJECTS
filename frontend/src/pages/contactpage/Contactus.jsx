@@ -2,7 +2,7 @@ import { useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 
-const Contact = () => {
+const Contactus = () => {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
 
   const handleChange = (e) => {
@@ -78,4 +78,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Contactus;

@@ -25,8 +25,9 @@ import Employeedashboard from './pages/EmployeerDasboard/Employeedashboard';
 import Footer from './compoenents/shared/Footer';
 import Editproduct from './compoenents/EmployeeDashboard/Editproduct';
 
-import Contact from './pages/contactpage/Contact'
-import Cloths from './pages/Cloths/Cloths';
+import Clothes from './pages/cloths/Clothes';
+import Contactus from './pages/contactpage/Contactus';
+
 function App() {
   const user = JSON.parse(localStorage.getItem("user")); // Get user from localStorage
 
@@ -41,13 +42,13 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/products" element={<Products />} />
-          <Route path="/cloths" element={<Cloths />} />
+          <Route path="/cloths" element={<Clothes />} />
           <Route path="/groceries" element={<Groceries />} />
           <Route path="/electronics" element={<Electronics />} />
           <Route path="/productdescription/:id" element={<ProductDescription />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/payment" element={<Paymentpage />} />
-          <Route path="/contact-us" element={<Contact />} />
+          <Route path="/contact-us" element={<Contactus />} />
           <Route path="/update" element={<Update />} />
 
           {/* Buyer-only Route */}
