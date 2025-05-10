@@ -7,7 +7,7 @@
 
 import { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { getAllProducts } from "../../redux/slices/productSlice"; // Adjust import according to your file structure
+import { getAllProducts } from "../../redux/Slices/productSlice"; // Adjust import according to your file structure
 
 const Bestsellercloths = () => {
   const dispatch = useDispatch();
