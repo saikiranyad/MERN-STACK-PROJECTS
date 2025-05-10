@@ -20,7 +20,8 @@ const notificationrouter = require("./routes/notificationRoutes.js");
 const app = express();
  const port = 5000;
  app.use(cors({
-   origin: 'http://localhost:5173', // React Frontend URL
+  //  origin: 'http://localhost:5173', // React Frontend URL
+  origin:'https://mern-stack-projects-frontend1.onrender.com',
    credentials: true // Allow Cookies and Authorization Headers
  }));
  app.use(express.json());
